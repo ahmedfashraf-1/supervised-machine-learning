@@ -3,6 +3,7 @@
 This repository contains basic implementations of Supervised Machine Learning algorithms using Python and NumPy. It includes:
 
 - 📈 Linear Regression
+- 🧮 Multiple Linear Regression
 - 🌀 Polynomial Regression
 - 💰 Cost Function
 - 📉 Gradient Descent
