@@ -64,3 +64,30 @@ Where:
 - `∂J/∂w` and `∂J/∂b` are gradients (partial derivatives)
 
 It moves the parameters in the direction of the negative gradient to reduce the cost.
+
+🧠 Logistic Regression
+Logistic Regression is a statistical algorithm mainly used for classification tasks, rather than predicting continuous values.
+It uses the Sigmoid Function to map the linear output into probabilities between 0 and 1.
+
+The Sigmoid function is defined as:
+- σ(z) = 1 / (1 + e^(-z))
+- Where:
+
+z = w·x + b is the linear combination of inputs.
+
+The output σ(z) represents the probability of belonging to a certain class
+
+💰 Cost Function (Log Loss / Binary Cross-Entropy)
+In Logistic Regression, the cost function is defined as:
+
+J(w,b) = - (1/m) Σ [ y·log(y_pred) + (1 - y)·log(1 - y_pred) ]
+Where:
+
+- m is the number of training examples
+
+- y is the actual label (0 or 1)
+
+- y_pred is the predicted probability from the sigmoid function
+
+- The goal is to minimize this cost function using optimization algorithms such as Gradient Descent.
+
