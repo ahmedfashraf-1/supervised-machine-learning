@@ -65,7 +65,7 @@ Where:
 
 It moves the parameters in the direction of the negative gradient to reduce the cost.
 
-🧠 Logistic Regression
+## 🧠 Logistic Regression
 Logistic Regression is a statistical algorithm mainly used for classification tasks, rather than predicting continuous values.
 It uses the Sigmoid Function to map the linear output into probabilities between 0 and 1.
 
