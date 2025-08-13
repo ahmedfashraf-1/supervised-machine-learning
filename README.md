@@ -91,7 +91,7 @@ Where:
 
 - The goal is to minimize this cost function using optimization algorithms such as Gradient Descent.
 
-##📍 K-Nearest Neighbors (KNN)
+## 📍 K-Nearest Neighbors (KNN)
 K-Nearest Neighbors (KNN) is a simple yet powerful algorithm that can be used for both classification and regression tasks.
 It relies on the idea that similar data points are likely to have similar outputs.
 
