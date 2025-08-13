@@ -7,7 +7,8 @@ This repository contains basic implementations of Supervised Machine Learning al
 - 🌀 Polynomial Regression
 - 💰 Cost Function
 - 📉 Gradient Descent
-
+- 🧠 Logistic Regression
+- 📍 K-Nearest Neighbors (KNN)
 ---
 
 ## 📘 Linear Regression
