@@ -91,3 +91,31 @@ Where:
 
 - The goal is to minimize this cost function using optimization algorithms such as Gradient Descent.
 
+##📍 K-Nearest Neighbors (KNN)
+K-Nearest Neighbors (KNN) is a simple yet powerful algorithm that can be used for both classification and regression tasks.
+It relies on the idea that similar data points are likely to have similar outputs.
+
+⚙️ Hyperparameters
+KNN has only two main hyperparameters:
+
+- k – the number of nearest neighbors to consider.
+
+- Distance metric – the method used to measure similarity between points (e.g., Euclidean, Manhattan).
+
+🔍 Choosing k
+The optimal value of k can be determined using the Elbow Method, where the model’s accuracy is evaluated for different k values, and the point where accuracy improvement slows down is selected.
+
+🛠 How It Works
+- 1-Initialization – choose k and a distance metric.
+
+- 2-Distance Calculation – compute the distance between the new point and all training points.
+
+- 3-Sorting – arrange points from closest to farthest.
+
+- 4-Prediction:
+  
+- Classification: take the majority label among the k nearest neighbors.
+If there is a tie, select the label with the smallest average distance.
+
+- Regression: take the average value of the k nearest neighbors.
+
